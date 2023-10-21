@@ -48,6 +48,7 @@ const Header = () => {
           h-[250px] lg:w-[400px] lg:h-[400px] relative"
           >
             <Image
+              loading="eager"
               alt="img"
               src="/images/pfp1.jpg"
               width={300}
